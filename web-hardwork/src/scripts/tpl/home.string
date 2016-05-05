@@ -1,0 +1,93 @@
+<div id="home">
+	<div class="yo-header yo-header-a">
+	    <h2 class="title">手工说</h2>
+	    <i class="yo-ico affirm" action-type="tap.search">&#xe611;</i>
+	</div>
+	<section id="home-scroll">
+		<div>
+			<div class="head">
+                <img src="/web-hardwork/images/refresh@44x44.png" />
+                <span>松开刷新</span>
+         	</div>
+			 <div class="swiper-container" id="home-swiper">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide"><img src="/web-hardwork/images/home-images/swiper1.png"></div>
+		            <div class="swiper-slide"><img src="/web-hardwork/images/home-images/swiper2.png"></div>
+		            <div class="swiper-slide"><img src="/web-hardwork/images/home-images/swiper3.png"></div>
+		        </div>
+		        <!-- Add Pagination -->
+		        <div class="swiper-pagination"></div>
+		    </div>
+
+			<div class="list">
+				<div>
+					<ul >
+						<!-- <li>
+							<i>送给你世界</i>
+							<b>手绘系列</b>
+						</li> -->
+					</ul>
+				</div>
+				<div>
+					<ul >
+						<!-- <li>
+							<i>最炫民族风</i>
+							<b>原创设计</b>
+						</li> -->
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<!-- <li>
+							<i>最炫民族风</i>
+							<b>原创设计</b>
+						</li> -->
+					</ul>
+				</div>
+				<div>
+					<ul >
+						<!-- <li>
+							<i>居家饰品</i>
+							<b>创意饰品</b>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+			<span class="home-span"></span>
+			<div id="home-section">
+					
+						<p>
+							<span></span>
+							创意生活指南
+						</p>
+						<div ms-repeat-el = "dataList">
+							<ul>
+								<li><img ms-src="el.img"></li>
+								<!-- <li ms-html="el.content"></li>
+								<li>
+									<i class="yo-ico">&#xe6b3;</i>
+									<b ms-html="el.num"></b>
+								</li> -->
+							</ul>
+						</div>
+						
+					
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>

@@ -1,0 +1,124 @@
+.login{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	@include flexbox(flex);
+	@include flex-direction(column);
+
+	@include yo-header(
+		$name:a,
+		$height:.39rem,
+		$bgcolor:#ff464e,
+		$color:#fff,
+		$font-size:.13rem
+	){
+		border:none;
+		position: relative;
+		z-index: 9999;
+		.regret{
+			line-height:.39rem;
+			font-size: .18rem;
+		}
+	}
+
+	.login-body{
+		@include flex(1);
+		width: 100%;
+		padding-top: .49rem;
+		@include box-sizing(border-box);
+		@include flexbox(flex);
+		@include align-items(center);
+		@include flex-direction(column);
+		>div{
+			width: 2.24rem;
+			height: .4rem;
+			position: relative;
+			&:nth-child(1){
+				@include border(0 0 1px 0,#d7cfcf);
+			}
+			&:nth-child(2){
+				@include border(0 0 1px 0,#d7cfcf);
+			}
+			input{
+				width: 100%;
+				height: 100%;
+				border:none;
+				padding-left: .34rem;
+				@include box-sizing(border-box);
+				/*border-bottom:1px #d7cfcf solid;*/
+			}
+			img{
+				width: .14rem;
+				height: .16rem;
+				position: absolute;
+				left: .1rem;
+				top:.12rem;
+			}
+			&:nth-child(3){
+				padding-top: .18rem;
+				input{
+					width: 2.24rem;
+					height: .36rem;
+					background: #ff464e;
+					color: #fff;
+					padding: 0;
+					font-size: .15rem;
+					text-align: center;
+					@include border-radius(.1rem);
+				}
+			}
+			&:nth-child(4){
+				@include box-sizing(border-box);
+				padding: .11rem 0 0 1.62rem;
+				color: #ff464e;
+				font-size: .1rem;
+				text-align: left;
+			}
+			&:nth-child(6){
+				height: .7rem;
+				img{
+					margin-top: .25rem;
+					margin-left: .9rem;
+					display: block;
+					width: .45rem;
+					height: .45rem;
+						
+				}
+				
+			}	
+		}
+
+		ul{
+					width: 2.24rem;
+					height: .26rem;
+					text-align: center;
+					@include flexbox(flex);
+					li{
+						line-height: .26rem;
+						&:nth-child(2){
+							width:.44rem;
+							height: 100%;
+							text-align: center;
+							font-size: .08rem;
+							color: #3e3e3e;
+						}
+						&:not(:nth-child(2)){
+							@include flex(1);
+							width: 100%;
+							img{
+								width: 100%;
+								height: .01rem;
+							}
+						}
+					}
+		}
+
+
+
+
+		
+	}
+
+
+
+}

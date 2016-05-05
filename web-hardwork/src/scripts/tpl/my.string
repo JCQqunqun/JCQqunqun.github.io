@@ -1,0 +1,57 @@
+<div class="my">
+	<div class="yo-header yo-header-a">
+	    <ul id="classify-nav">
+	    	<li class="active">个人中心</li>
+	    </ul>
+	    <i class="yo-ico affirm" action-type="tap.more">&#xe61a;</i>
+	</div>
+	
+	<div class="my-avatar" action-type="tap.login">
+		<i><img src="/web-hardwork/images/my-images/userinfo_avatar.png"></i>
+		<b>登录后发表高论</b>
+	</div>
+
+	<ul>
+		<li>
+			<i><img src="/web-hardwork/images/my-images/ic_my_user_order.png"></i>
+			<b>淘宝订单</b>
+		</li>
+		<li>
+			<i><img src="/web-hardwork/images/my-images/ic_my_user_cart.png"></i>
+			<b>淘宝购物车</b>
+		</li>
+		<li>
+			<i><img src="/web-hardwork/images/my-images/ic_my_user_kefu.png"></i>
+			<b>淘宝客服</b>
+		</li>
+	</ul>
+
+	<ul id="my-ul">
+		<li action-type="tap.my.collect1">收藏的单品</li>
+		<li action-type="tap.my.collect2">收藏的指南</li>
+		<i class="my-i active" ></i>
+	</ul>
+	<div class="swiper-container" id="my-swiper">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<section>
+					<div>
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+				</section>
+			</div>
+			<div class="swiper-slide">
+				<section>
+					<div>
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+</div>

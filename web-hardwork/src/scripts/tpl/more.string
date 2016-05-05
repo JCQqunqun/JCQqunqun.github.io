@@ -1,0 +1,41 @@
+<div class="more">
+	<div class="yo-header yo-header-a">
+	    <h2 class="title">更多</h2>
+	    <span class="regret yo-ico" action-type="tap.more.return">&#xf07d;</span>
+	</div>
+
+	<div class="more-body">
+		<ul>
+			<li>
+				<i><img src="/web-hardwork/images/more-images/ico_mob_cache.png"></i>
+				<b>清除缓存</b>
+				<i><img src="/web-hardwork/images/more-images/ic_arrow_general.png"></i>
+			</li>
+			<li>
+				<i><img src="/web-hardwork/images/more-images/ico_mob_qaq.png"></i>
+				<b>加入QQ群</b>
+				<i><img src="/web-hardwork/images/more-images/ic_arrow_general.png"></i>
+			</li>
+			<li>
+				<i><img src="/web-hardwork/images/more-images/ico_mob_guanyu.png"></i>
+				<b>关于手工说</b>
+				<i><img src="/web-hardwork/images/more-images/ic_arrow_general.png"></i>
+			</li>
+			<li>
+				<i><img src="/web-hardwork/images/more-images/ico_mob_tuijian.png"></i>
+				<b>推荐应用</b>
+				<i><img src="/web-hardwork/images/more-images/ic_arrow_general.png"></i>
+			</li>
+			<li>
+				<i><img src="/web-hardwork/images/more-images/ico_mob_gengxin.png"></i>
+				<b>当前版本</b>
+				<i>V 1.3.1</i>
+			</li>
+		</ul>
+		<div>
+			<i><img src="/web-hardwork/images/more-images/ico_saomiao.png"></i>
+			<b>扫描二维码</b>
+			<b>您的朋友也可以下载手工说！</b>
+		</div>
+	</div>
+</div>

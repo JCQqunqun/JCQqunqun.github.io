@@ -1,0 +1,11 @@
+$font-heiti-light: Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+$font-heiti-medium: Heiti SC Medium, Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+
+@font-face {
+  font-family: yofont;
+  src: url("/web-hardwork/images/iconfont/iconfont.woff") format("woff"), url("/web-hardwork/images/iconfont/iconfont.ttf") format("truetype");
+}
+
+body {
+	background-color: #fff !important;
+}

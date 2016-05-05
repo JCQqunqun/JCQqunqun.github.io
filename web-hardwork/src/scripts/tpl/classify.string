@@ -1,0 +1,184 @@
+<div id="classify">
+	<div class="yo-header yo-header-a">
+	    <ul id="classify-nav">
+	    	<li class="active" action-type="tap.classify.switch">指南</li>
+	    	<li action-type="tap.classify.switch">单品</li>
+	    </ul>
+	    <i class="yo-ico affirm" action-type="tap.search">&#xe611;</i>
+	</div>
+	<div class="classify-body">
+		<div class="swiper-container" id="classify-swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<section  spa-widget="scroll">
+					<div>
+						<div>
+							<h5>指南分类</h5>
+							<ul>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_chuanda.png"></i> 
+									<b>手工服饰</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_bag.png"></i> 
+									<b>手工鞋包</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_jujia.png"></i> 
+									<b>手工居家</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_meishi.png"></i> 
+									<b>手工食品</b>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_t_chuangyi.png"></i> 
+									<b>手工创意</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_shipin.png"></i> 
+									<b>手工饰品</b>
+								</li>
+								<li></li>
+								<li></li>
+							</ul>
+							<p></p>
+						</div>
+						
+						
+
+						<div>
+							<h5>单品分类</h5>
+							<ul>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_chuanda.png"></i> 
+									<b>穿搭</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_jujia.png"></i> 
+									<b>居家</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_shipin.png"></i> 
+									<b>饰品</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_xiezi.png"></i> 
+									<b>鞋子</b>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_meihu.png"></i> 
+									<b>美护</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_meishi.png"></i> 
+									<b>美食家</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_t_keji.png"></i> 
+									<b>科技</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_t_meiwu.png"></i> 
+									<b>礼物</b>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_t_chuangyi.png"></i> 
+									<b>创意</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_yuanchuang.png"></i> 
+									<b>原创</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_bag.png"></i> 
+									<b>包包</b>
+								</li>
+								<li>
+									
+								</li>
+							</ul>
+							<p></p>
+						</div>
+
+
+					</div>
+				</section>
+				</div>
+				<div class="swiper-slide">
+					<section  spa-widget="scroll">
+					<div>
+
+						<div>
+							<h5>单品分类</h5>
+							<ul>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_chuanda.png"></i> 
+									<b>穿搭</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_jujia.png"></i> 
+									<b>居家</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_shipin.png"></i> 
+									<b>饰品</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_xiezi.png"></i> 
+									<b>鞋子</b>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_meihu.png"></i> 
+									<b>美护</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_meishi.png"></i> 
+									<b>美食家</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_t_keji.png"></i> 
+									<b>科技</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_t_meiwu.png"></i> 
+									<b>礼物</b>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_t_chuangyi.png"></i> 
+									<b>创意</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_yuanchuang.png"></i> 
+									<b>原创</b>
+								</li>
+								<li>
+									<i><img src="/web-hardwork/images/classify-images/cate_m_bag.png"></i> 
+									<b>包包</b>
+								</li>
+								<li>
+									
+								</li>
+							</ul>
+				
+						</div>
+
+
+					</div>
+				</section>
+				</div>
+			</div>
+		</div>
+	</div>
+	 
+</div>

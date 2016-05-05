@@ -1,0 +1,23 @@
+<div class="m-index">
+	<div class="l-index-content"></div>
+	<div class="l-footer">
+		<ul>
+			<li class="active" action-type="tap.switch" data-tag="home">
+				<i class="yo-ico">&#xe63e;</i>
+				<b>指南</b>
+			</li>
+			<li action-type="tap.switch" data-tag="item">
+				<i class="yo-ico">&#xe622;</i>
+				<b>单品</b>
+			</li>
+			<li action-type="tap.switch" data-tag="classify">
+				<i class="yo-ico">&#xe602;</i>
+				<b>分类</b>
+			</li>
+			<li action-type="tap.switch" data-tag="my">
+				<i class="yo-ico">&#xe60b;</i>
+				<b>我</b>
+			</li>
+		</ul>
+	</div>
+</div>

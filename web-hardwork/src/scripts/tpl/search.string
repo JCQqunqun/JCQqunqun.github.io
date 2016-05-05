@@ -1,0 +1,24 @@
+<div class="search">
+	<div class="yo-header yo-header-a">
+		<div>
+	   		 <input type="text" placeholder="唯有‘爱’ 不可辜负~" ms-duplex="keyWord" ms-keyup="getData()">
+		</div>
+	    <span class="regret yo-ico" action-type="tap.return">&#xf07d;</span>
+	    <span class="affirm" action-type="tap.search.love">搜真爱</span>
+	</div>
+	
+	<div class="search-body" ms-visible="isExist">
+		<ul id="search-ul">
+			<li action-type="tap.search.collect1">单品</li>
+			<li action-type="tap.search.collect2">指南</li>
+			<i class="my-i active"></i>
+		</ul>
+
+		<div class="swiper-container" id="search-swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">1</div>
+				<div class="swiper-slide">2</div>
+			</div>
+		</div>
+	</div>
+</div>

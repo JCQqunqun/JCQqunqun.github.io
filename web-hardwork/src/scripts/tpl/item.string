@@ -1,0 +1,41 @@
+<div class="item">
+	<div class="yo-header yo-header-a">
+	    <ul id="classify-nav">
+	    	<li class="active">热门单品</li>
+	    </ul>
+	    <i class="yo-ico affirm" action-type="tap.search">&#xe611;</i>
+	</div>
+
+	<setion  class="item-body" id="item-scroll">
+		<div>
+			<div class="head">
+                <img src="/web-hardwork/images/refresh@44x44.png" />
+                <span>松开刷新</span>
+            </div>
+			<ul ms-repeat-el="dataItemList">
+				<li>
+					<i><img ms-src="el[0].img"></i>
+					<div>
+						<b ms-html="el[0].cont1"></b>
+						<b ms-html="el[0].cont2"></b>
+						<b><i class="yo-ico" ms-html="el[0].cont3"></i></b> 
+					</div>	
+				</li>
+				<li></li>
+				<li>
+					<i><img ms-src="el[1].img"></i>
+					<div>
+						<b ms-html="el[1].cont1"></b>
+						<b ms-html="el[1].cont2"></b>
+						<b><i class="yo-ico" ms-html="el[1].cont3"></i></b>
+					</div>	
+				</li>
+			</ul>
+			<!-- <div class="foot">
+                <img src="img/arrow.png" width="40" height="40"/>
+                <span>上拉加载更多...</span>
+            </div> -->
+
+		</div>
+	</section>
+</div>

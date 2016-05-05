@@ -1,0 +1,31 @@
+<div class="login">
+	<div class="yo-header yo-header-a">
+	    <h2 class="title">登录</h2>
+	    <span class="regret yo-ico" action-type="tap.login.return">&#xf07d;</span>
+	</div>
+
+	<div class="login-body">
+		
+			<div>
+				<input type="text" placeholder="邮箱/手机号/用户名">
+				<img src="/web-hardwork/images/login-images/login01.png">
+			</div>
+			<div>
+				<input type="text" placeholder="密码">
+				<img src="/web-hardwork/images/login-images/login02.png">
+			</div>
+			 <div>
+				<input type="button" value="登录">
+			</div>
+			<div action-type="tap.register">注册账号</div>
+			<ul>
+					<li><img src="/web-hardwork/images/login-images/line.png"></li>
+					<li>OR</li>
+					<li><img src="/web-hardwork/images/login-images/line.png"></li>
+			</ul>
+			<div>
+				<img src="/web-hardwork/images/login-images/weixin_dl.png">
+			</div>
+	</div> 
+	
+</div>

@@ -1,0 +1,122 @@
+@import "../../lib/ani/rotate.scss";
+.item{
+
+	@include flexbox(flex);
+	@include flex-direction(column);
+	width:100%;
+	height: 100%;
+	background: #f0f0f0;
+
+	@include yo-header(
+		$name:a,
+		$bgcolor:#ff464e,
+		$color:#fff,
+		$font-size:.13rem,
+		$height:.39rem,
+		$bordercolor:#ccc
+	){
+		border:none;
+		z-index:9999;
+		i{
+			display: block;
+			width:.15rem;
+			height:.15rem;
+			color:#fff;
+		}
+	}
+
+	.item-body{
+		@include flex(1);
+		width: 100%;
+		background: #f0f0f0;
+		/*position: relative;*/
+		>div{
+			
+			.head {
+                      @extend %head;
+                  }
+                  /*.foot {
+                      text-align: center;
+                      height: .35rem;
+                      line-height: .35rem;
+                      font-size:.12rem;
+                      img {
+                          width:.13rem;
+                          height:.13rem;
+                          display: inline-block;
+                          transition: transform 150ms;
+                          -webkit-transition: transform 150ms;
+                          transform: rotate(0deg);
+					        -webkit-transform: rotate(0deg);
+					        transition: transform 150ms;
+					        -webkit-transition: transform 150ms;
+					        
+                      }
+                  }*/
+			
+
+			ul{
+				width: 100%;
+				padding: .09rem .09rem 0 .09rem;
+				/*height: 2.1rem;*/
+				@include box-sizing(border-box);
+				@include flexbox(flex);
+
+				li{
+					&:nth-child(2){
+						width:.09rem;
+						height: 100%;
+					}
+					&:not(:nth-child(2)){
+						@include flex(1);
+						width: 100%;
+						background: #fff;
+						/*@include flexbox(flex);
+						@include flex-direction(column);*/
+						@include box-sizing(border-box);
+						border:1px solid #dfdfdf;
+						@include border-radius(.04rem);
+						i{
+							display: block;
+							width: 100%;
+							height: 100%;
+							img{
+								width: 100%;
+								height: 100%;
+							}
+						}
+						>div{
+							/*@include flex(1);*/
+							width: 100%;
+							padding: 0.03rem .05rem;
+							@include box-sizing(border-box);
+							position: relative;
+							b:nth-child(1){
+								font-size:.11rem;
+								line-height: .13rem;
+								color: #606060;
+								display: block;
+								font-weight: normal;
+								word-wrap:break-word;
+								/*@include flex-wrap(nowrap);*/
+							}
+							b:nth-child(2){
+								font-size:.11rem;
+								color: #ff242e;
+								font-weight: normal;
+							}
+							b:nth-child(3){
+								font-size:.09rem;
+								color: #999;
+								font-weight: normal;
+								position: absolute;
+								bottom: .05rem;
+								right: .15rem;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
